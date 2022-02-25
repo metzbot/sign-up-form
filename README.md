@@ -1,2 +1,2 @@
 # sign-up-form
-A sample sign-up form for a website, created as an exercise
+A sample sign-up form website, created as an exercise

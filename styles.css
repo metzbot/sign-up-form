@@ -1,0 +1,212 @@
+:root {
+  font-family: 'Oswald', 'Helvetica', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  --background1: rgb(221, 228, 235);
+}
+
+main {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+body {
+  margin: 0;
+}
+
+.sidebar {
+  background-image: url('./media/IMG_8543.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-container {
+  margin-top: auto;
+  margin-bottom: 70vh;
+  background-color: rgba(128, 128, 128, 0.698);
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 30vw;
+  margin: 10px 0;
+}
+
+.content {
+  background-color: var(--background1);
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerbox {
+  background-color: var(--background1);
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+header {
+  background-color: var(--background1);
+  width: 50vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+p {
+  margin: 2vh 0;
+}
+
+.sign-up-form-wrapper {
+  color: rgb(33, 56, 53);
+  background: rgb(255, 255, 255);
+  /* width: 60vw; */
+  display: flex;
+  position: relative;
+  padding: 0 5vw;
+  box-shadow: 0 1.5vh 3vh -3vh black;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+  /* gap: 10px; */
+  font-size: .75em;
+  margin-bottom: 4em;
+}
+
+/* form > div {
+  position: relative;
+} */
+
+/* form > div > label {
+  opacity: 0.6;
+  position: absolute;
+  top: 5%;
+  left: 10%;
+} */
+
+.form-row1,
+.form-row2,
+.form-row3 {
+  display: flex;
+}
+
+.first_name,
+.last_name,
+.email,
+.tel,
+.password,
+.passwordConfirm {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+/* .form-row1 > input,
+.form-row2 > input,
+.form-row3 > input {
+  min-width: 20vw;
+  max-width: 166px;
+} */
+
+/* .form-row1 {
+  margin-right: 20px;
+} */
+
+/* #first-name,
+#email,
+#password {
+
+}
+
+#last-name,
+#tel,
+#passwordConfirm {
+
+} */
+
+/*box-shadow bullshit go fuck yourself*/
+/* .sign-up-form::before,
+.sign-up-form::after {
+  content: '';
+  position: absolute;
+  top: 90%;
+  bottom: 2%;
+  box-shadow: 0 0 20px 3px rgb(0, 0, 0);
+  z-index: -1;
+}
+
+.sign-up-form::before {
+  background: rgba(255, 0, 0, 0);
+  left: 5px;
+  right: 45px;
+  transform: rotate(-2deg);
+}
+
+.sign-up-form::after {
+  background: rgba(0, 0, 255, 0);
+  left: 45px;
+  right: 5px;
+  transform: rotate(2deg);
+} */
+
+.account-creation {
+  background-color: var(--background1);
+  /* height: 30vh; */
+  padding: 0 5vw;
+  margin-top: 2vw;
+}
+
+input {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+  width: 166px;
+  border: 2px solid rgba(139, 139, 139, 0.5); 
+  border-radius: 4px;
+}
+
+input#submit {
+  font-size: 1em;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(36, 95, 153);
+  border: none;
+  border-radius: 4px; 
+  padding: 10px 34px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+
+a,
+a:active,
+a:focus,
+a:hover,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}

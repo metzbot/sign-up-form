@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../html5-boilerplate"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sign-up-form"
+	}
+}
